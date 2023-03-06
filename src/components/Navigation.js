@@ -37,6 +37,12 @@ const Navigation = () => {
                             <span>Contact</span>
                         </NavLink>
                     </li>
+                    <li>
+                        <NavLink exact to="/login" activeClassName="navActive">
+                            <i className='fas fa-address-book'></i>
+                            <span>Se connecter</span>
+                        </NavLink>
+                    </li>
                 </ul>
             </div>
 
