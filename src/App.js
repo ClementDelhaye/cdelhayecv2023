@@ -5,7 +5,6 @@ import Knowledges from './pages/Knowledges';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import NotFound from './pages/NotFound';
-import Login from './pages/Login';
 
 
 const App = () => {
@@ -14,7 +13,6 @@ const App = () => {
             <BrowserRouter>
                 <Routes>
                     <Route path="/" exact element={<Home />} />
-                    <Route exact path="/login" element={<Login />} />
                     <Route exact path="/competences" element={<Knowledges />} />
                     <Route exact path="/portfolio" element={<Portfolio />} />
                     <Route exact path="/contact" element={<Contact />} />
